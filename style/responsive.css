@@ -9,3 +9,9 @@
     width: 300px;
   }
 }
+
+@media screen and (min-width: 1000px) {
+  .descricao {
+    width: 50%;
+  }
+}
