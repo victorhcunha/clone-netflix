@@ -1,5 +1,5 @@
 :root {
-  --vermelho: #red;
+  --vermelho: #e50914;
   --preto: #141414;
 }
 
@@ -11,7 +11,29 @@
 
 body {
   background: var(--preto);
+  font-family: "Times New Roman", Times, serif;
+  color: white;
 }
 
-border .container {
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  color: var(--vermelho);
+  font-family: "Arial Black", Times;
+  font-size: 40px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #aaa;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #fff;
 }
